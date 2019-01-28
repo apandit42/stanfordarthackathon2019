@@ -1,4 +1,6 @@
-/* Parallax base styles
+
+
+  /* Parallax base styles
   --------------------------------------------- */
 
   .parallax {
@@ -67,7 +69,7 @@
   }
 
   .parallax {
-    font-size: 200%;
+    font-size: 400%;
   }
 
    /* centre the content in the parallax layers */
@@ -80,8 +82,6 @@
     transform: translate(-50%, -50%);
   }
 
-
-
   /* style the groups
   --------------------------------------------- */
 
@@ -89,47 +89,47 @@
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: rgb(102,204,102);
+    background-image: url('https://images.unsplash.com/photo-1530878955558-a6c31b9c97db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
   }
 
   #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-    background: rgb(123,210,102);
+    background-image: url('https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Nice/Nice%2C%20france-xlarge.jpg');
   }
 
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
-    background: rgb(153,216,101);
+    background-image: url('https://content3.jdmagicbox.com/comp/jamnagar/e3/0288px288.x288.130624180002.v9e3/catalogue/nice-photo-pancheswar-tower-road-jamnagar-photo-studios-99t5yw.jpg');
   }
 
   #group4 {
     z-index: 2; /* slide under group 3 and 5 */
   }
   #group4 .parallax__layer--deep {
-    background: rgb(184,223,101);
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg');
   }
 
   #group5 {
     z-index: 3; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
-    background: rgb(214,229,100);
+    background-image: url('https://content3.jdmagicbox.com/comp/jamnagar/e3/0288px288.x288.130624180002.v9e3/catalogue/nice-photo-pancheswar-tower-road-jamnagar-photo-studios-99t5yw.jpg');
   }
 
   #group6 {
     z-index: 2; /* slide under group 5 and 7 */
   }
   #group6 .parallax__layer--back {
-    background: rgb(245,235,100);
+    background-image: url('https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
   }
 
   #group7 {
     z-index: 3; /* slide over group 7 */
   }
   #group7 .parallax__layer--base {
-    background: rgb(255,241,100);
+    background-image: url('https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
   }
